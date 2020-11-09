@@ -1,1 +1,10 @@
 # mod4project
+
+## Summary
+In this project we attempt to create a model that will correctly classify a tweet as positive, negative, or neutral. Our priority was first to classify positive tweets, then negative tweets. Neutral tweets were not prioritized. Our model performed fairly well in some areas and not so well in others. Where it predicted a positive or negative emotion from a tweet, it was right the overwhelming majority of the time. It predicted quite a few positive or negative tweets as nuetral, however, which suggests that further tuning is needed.
+
+## Introduction
+As the internet and social media become ever present in our lives, the amount of text data we interact with is growing at a rate that is honestly difficult to wrap our heads around. There are over 500 million tweets every day. Yelp hosts nearly 200 million reviews. The amount of text data available to us is simply staggering. With that in mind, it’s imperative that we find ways to take this wealth of data and turn it into actionable insights to solve the problems we encounter every day. In our case, the problem we are attempting to solve is how to conduct effective sentiment analysis. Knowing how your company and its products are being viewed by the public is key to developing a successful plan for product releases, feature updates, social media presence, and other decisions that encompass every aspect of your business.
+
+## Conclusion
+Our model failed to correctly classify most positive or negative tweets. It did, however have a high success rate when it did classify a tweet as negative or positive. 100% of the tweets it classified as negative were actually negative, and 67% of the predicted positives were in fact positive. This suggests that the model could be improved by adjusting probability thresholds for classifying as positive or negative, or by using multiple binary classification models instead of multinomial classification.
